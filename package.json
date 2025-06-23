@@ -1,0 +1,28 @@
+{
+  "name": "foodpedia-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "swc -d dist src",
+    "dev": "webpack --config webpack.config.js --watch"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.10.10",
+    "@swc/cli": "^0.7.7",
+    "@swc/core": "^1.12.4",
+    "@types/express": "^5.0.3",
+    "run-script-webpack-plugin": "^0.2.3",
+    "swc-loader": "^0.2.6",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "prisma": "^6.10.1"
+  }
+}
